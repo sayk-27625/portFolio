@@ -246,7 +246,7 @@ main {
 }
 
 .works-heading {
-    color: #daab59;
+    color: #7285ff;
 }
 
 
@@ -337,6 +337,8 @@ main {
     color: #00bfff;
     font-size: 3rem;
     margin-bottom: 10rem;
+    text-align: center;
+    padding: 2rem 1rem;
   }
   
   .favorite p {
@@ -483,8 +485,60 @@ main {
   .about-desc {
     font-size: 1.2rem;
     text-align: left;
+ }
+    .about-desc p{
+    margin-bottom: 0.6rem;
+    line-height: 1.6;
+    } 
     
+ 
+  
+  .works {
+    text-align: center;
+    padding: 3rem 1rem;
   }
+  
+  .works h2 {
+    color: #00bfff;
+    font-size: 3rem;
+    margin-bottom: 10rem;
+    margin-top: 4rem;
+  }
+  
+  .works-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .work-item {
+    text-align: center;
+  }
+
+  .work-item h3{
+    font-size: 2rem;
+  }
+  
+  .work-image {
+    width:  350px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 1rem;
+  }
+  
+  .work-item h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  .work-item p {
+    font-size: 0.95rem;
+    margin: 0;
+  }
+  
   
 
 /* footer */
